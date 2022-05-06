@@ -13,3 +13,36 @@
   margin-top: 30px;
   line-height: 20px;
 }
+
+.fourth_contents_wrap {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 30px;
+  line-height: 20px;
+
+  .dummy_text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -100;
+    top: 30%;
+  }
+
+  .real_text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -100;
+    bottom: 15%;
+    color: black;
+  }
+}
+
+.pierrot_img {
+  transition: 0.3s;
+}
+
+.pierrot_img:hover {
+  transform: rotate(-90deg);
+}
