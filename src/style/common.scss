@@ -1,0 +1,53 @@
+@font-face {
+  font-family: 'BMEuljiro10yearslater';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/BMEuljiro10yearslater.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_wrap {
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'BMEuljiro10yearslater';
+
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+.start_btn_wrap {
+  margin-top: 50px;
+}
+.table_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+  th {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+  }
+
+  td {
+    height: 30px;
+    text-align: center;
+    border: 1px solid white;
+  }
+}
+
+.btn_wrap {
+  margin-top: 30px;
+}
