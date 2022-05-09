@@ -46,3 +46,53 @@
 .pierrot_img:hover {
   transform: rotate(-90deg);
 }
+
+.six_contents_wrap {
+  width: 800px;
+  height: auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  p:nth-child(2) {
+    position: relative;
+    top: -520px;
+    display: inline-block;
+    left: 30px;
+    color: blue;
+    opacity: 0.1;
+    font-size: 1.4rem;
+  }
+
+  p:nth-child(3) {
+    position: relative;
+    top: -400px;
+    display: inline-block;
+    left: 450px;
+    color: white;
+    opacity: 0.1;
+    font-size: 1.4rem;
+  }
+
+  p:nth-child(4) {
+    position: relative;
+    top: -100px;
+    display: inline-block;
+    left: 10px;
+    color: white;
+    opacity: 0.1;
+    font-size: 1.4rem;
+  }
+
+  p:nth-child(5) {
+    position: relative;
+    top: -50px;
+    display: inline-block;
+    left: 600px;
+    color: black;
+    opacity: 0.1;
+    font-size: 1.4rem;
+  }
+}

@@ -1,6 +1,10 @@
 import React from 'react'
 
+import { useTableData } from '../../hooks/useHintType'
+
 const Table = () => {
+  const setting = useTableData()
+
   return (
     <>
       <div className="col-md-10 table_wrap">
@@ -13,8 +17,8 @@ const Table = () => {
           </thead>
           <tbody>
             <tr>
-              <td>영단어</td>
-              <td>Picture</td>
+              <td>{setting && setting[0].type}</td>
+              <td>{setting && setting[0].hint}</td>
             </tr>
           </tbody>
         </table>
