@@ -96,3 +96,61 @@
     font-size: 1.4rem;
   }
 }
+
+.table_input {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0;
+  border: 1px solid black;
+}
+
+.fifth_contents_wrap {
+  table {
+    width: 100%;
+    thead {
+      color: white;
+      th {
+        text-align: center;
+        vertical-align: bottom;
+        border: 1px solid white;
+
+        p {
+          margin-bottom: 0 !important;
+        }
+      }
+
+      th:nth-child(1) {
+        width: 20%;
+      }
+    }
+
+    tbody {
+      th {
+        border: 1px solid white;
+        text-align: right;
+        padding-right: 10px;
+        height: 40px;
+      }
+
+      span {
+        margin-right: 10px;
+      }
+
+      tr {
+        color: white;
+        border: 1px solid white;
+
+        td {
+          border: 1px solid white;
+          cursor: pointer;
+        }
+
+        .on_mode {
+          background-color: white;
+        }
+      }
+    }
+  }
+}

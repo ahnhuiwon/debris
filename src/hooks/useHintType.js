@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 import { type_data } from '../etc/dummy_data'
 
 // 힌트와 타입 셋팅 hooks
@@ -22,12 +23,14 @@ export const useTableData = () => {
       case 'fourth':
         return_func(last_value)
         break
+      case 'fifth':
+        return_func(last_value)
+        break
       case 'sixth':
         return_func(last_value)
         break
       default:
         return false
-        break
     }
   }, [])
 

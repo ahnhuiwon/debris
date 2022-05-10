@@ -7,6 +7,7 @@ import SecondPage from './stage/SecondPage'
 import ThirdPage from './stage/ThirdPage'
 import FourthPage from './stage/FourthPage'
 import SixthPage from './stage/SixthPage'
+import FifthPage from './stage/FifthPage'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/second" element={<SecondPage />} />
             <Route path="/third" element={<ThirdPage />} />
             <Route path="/fourth" element={<FourthPage />} />
+            <Route path="/fifth" element={<FifthPage />} />
             <Route path="/sixth" element={<SixthPage />} />
           </Routes>
         </BrowserRouter>
