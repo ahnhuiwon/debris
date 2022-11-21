@@ -31,7 +31,7 @@ const useMatchAnswer = () => {
               (param === 'titanic') && navigate('/Xdhe9C28H67TlpKTjpdsj')
               break
             case 'Xdhe9C28H67TlpKTjpdsj' :
-              (param === 'crimson') && navigate('/Xdhe9C28H67TlpKTjpdsj')
+              (param === 'crimson') && navigate('/XPlBWg23Igj5kjSKxfYjV')
               break
             default:
             return false
