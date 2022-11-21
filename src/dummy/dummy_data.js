@@ -5,5 +5,7 @@ export const type_data = [
   { name: 'fourth', hint: '', type: '영단어' },
   { name: 'fifth', hint: '', type: '숫자' },
   { name: 'sixth', hint: '', type: '영단어' },
+  { name: 'seventh', hint: 'keyboard', type: '영단어' },
+  { name: 'eighth', hint: '인공어', type: '영단어' },
 ]
   

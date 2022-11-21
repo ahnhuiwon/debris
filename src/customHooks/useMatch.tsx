@@ -22,10 +22,16 @@ const useMatchAnswer = () => {
               param === '846103972' && navigate('/HYdJIKd_tUbzmgFDXlxqL')
               break
             case 'HYdJIKd_tUbzmgFDXlxqL':
-              (param === 'christmas' || param === 'x-mas') && navigate('/Bym3dGXQ8NmCrGOkS')
+              (param === 'christmas' || param === 'x-mas') && navigate('/ylYtHZiUx_imU0GAtPzzd')
+              break
+            case 'ylYtHZiUx_imU0GAtPzzd' :
+              (param === 'sevendeadlysins') && navigate('/FwQshbQRbKQVL0FYIBjhv')
+              break
+            case 'FwQshbQRbKQVL0FYIBjhv' :
+              (param === 'titanic') && navigate('/M_uwyF7vmSASDJdx5E4L3')
               break
             default:
-              return false
+            return false
         }
     }
 

@@ -10,6 +10,8 @@ import ThirdRoute from './route/ThirdRoute';
 import FourthRoute from './route/FourthRoute';
 import FifthRoute from './route/FifthRoute';
 import SixthRoute from './route/SixthRoute';
+import SevenRoute from './route/SevenRoute';
+import EightRoute from './route/EightRoute';
 
 function App() {
   const temp_route = nanoid();
@@ -26,6 +28,8 @@ function App() {
             <Route path="/gsptamKLiqxSizc9QLILX" element={ <FourthRoute /> } />
             <Route path='/QvC7ag1lY6a_QVQCgKEIQ' element={ <FifthRoute /> } />
             <Route path='/HYdJIKd_tUbzmgFDXlxqL' element={ <SixthRoute /> } />
+            <Route path='/ylYtHZiUx_imU0GAtPzzd' element={ <SevenRoute /> } />
+            <Route path='/FwQshbQRbKQVL0FYIBjhv' element={ <EightRoute />} />
           </Routes>
         </div>
       </Container>
