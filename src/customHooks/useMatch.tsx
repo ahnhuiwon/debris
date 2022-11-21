@@ -28,7 +28,10 @@ const useMatchAnswer = () => {
               (param === 'sevendeadlysins') && navigate('/FwQshbQRbKQVL0FYIBjhv')
               break
             case 'FwQshbQRbKQVL0FYIBjhv' :
-              (param === 'titanic') && navigate('/M_uwyF7vmSASDJdx5E4L3')
+              (param === 'titanic') && navigate('/Xdhe9C28H67TlpKTjpdsj')
+              break
+            case 'Xdhe9C28H67TlpKTjpdsj' :
+              (param === 'crimson') && navigate('/Xdhe9C28H67TlpKTjpdsj')
               break
             default:
             return false

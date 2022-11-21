@@ -12,6 +12,7 @@ import FifthRoute from './route/FifthRoute';
 import SixthRoute from './route/SixthRoute';
 import SevenRoute from './route/SevenRoute';
 import EightRoute from './route/EightRoute';
+import NineRoute from './route/NineRoute';
 
 function App() {
   const temp_route = nanoid();
@@ -30,6 +31,7 @@ function App() {
             <Route path='/HYdJIKd_tUbzmgFDXlxqL' element={ <SixthRoute /> } />
             <Route path='/ylYtHZiUx_imU0GAtPzzd' element={ <SevenRoute /> } />
             <Route path='/FwQshbQRbKQVL0FYIBjhv' element={ <EightRoute />} />
+            <Route path='/Xdhe9C28H67TlpKTjpdsj' element={ <NineRoute />} />
           </Routes>
         </div>
       </Container>
