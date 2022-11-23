@@ -33,6 +33,12 @@ const useMatchAnswer = () => {
             case 'Xdhe9C28H67TlpKTjpdsj' :
               (param === 'crimson') && navigate('/XPlBWg23Igj5kjSKxfYjV')
               break
+            case 'XPlBWg23Igj5kjSKxfYjV' :
+              (param === 'lolita') && navigate('/XHsw5dhTVuI09jFJOU63F')
+              break
+            case 'XHsw5dhTVuI09jFJOU63F' :
+              (param === 'thismasquerade') && navigate('/aeX06_oWQpEyDrPF2V7xm')
+              break
             default:
             return false
         }

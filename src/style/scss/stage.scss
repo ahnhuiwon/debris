@@ -5,12 +5,39 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Ansungtangmyun-Bold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/Ansungtangmyun-Bold.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .contents_wrap {
     text-align: center;
     font-size: 1.2rem;
     color: white;
     margin-top: 30px;
     line-height: 40px;
+}
+
+.block_page {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  margin-top: 30px;
+  line-height: 40px;
+
+  img {
+    width: 50%;
+    height: auto;
+  }
+
+  p {
+    margin-top: 30px;
+    font-family: 'Ansungtangmyun-Bold';
+    font-size: 1.5rem;
+    color: crimson;
+  }
 }
 
 .six_contents_wrap {
@@ -149,6 +176,18 @@
         display: block;
         text-align: center;
       }
+    }
+  }
+
+  .eleven_contents_wrap{
+    color: crimson;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+
+    p {
+      display: inline-block;
+      margin-right: 30px;
     }
   }
 

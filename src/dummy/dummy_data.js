@@ -9,5 +9,6 @@ export const type_data = [
   { name: 'eighth', hint: '인공어', type: '영단어' },
   { name: 'nineth', hint: '', type: '영단어' },
   { name: 'ten', hint: '', type: '영단어' },
+  { name: 'eleven', hint: 'lyrics', type: '영단어' },
 ]
   

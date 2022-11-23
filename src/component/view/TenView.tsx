@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import WordParts from "../common/WordParts";
 
 
 
 const TenView = () => {
-
+    const navigate = useNavigate();
     const word_arr: string = "And this is the only immortality you and I may share, My Lolita.";
     const alphabet: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
 
@@ -34,7 +35,7 @@ const TenView = () => {
         const check = flag_arr.filter( data => data === true).length;
         
         if(check > 3){
-            window.location.reload();
+            navigate('/');
         }
     }
 

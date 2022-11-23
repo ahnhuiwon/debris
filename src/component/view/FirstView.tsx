@@ -1,4 +1,15 @@
+import { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+
 const FirstView = () => {
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        window.onpopstate = () => {
+            navigate('/block')
+        };
+    }, [navigate]);
+
     return(
         <>
             <div className="contents_wrap">

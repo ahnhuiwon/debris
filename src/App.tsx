@@ -14,6 +14,9 @@ import SevenRoute from './route/SevenRoute';
 import EightRoute from './route/EightRoute';
 import NineRoute from './route/NineRoute';
 import TenRoute from './route/TenRoute';
+import BlockRoute from './route/BlockRoute';
+import ElevenRoute from './route/ElevenRoute';
+import FirstStageClearRoute from './route/FirstStageClearRoute';
 
 function App() {
   const temp_route = nanoid();
@@ -24,6 +27,7 @@ function App() {
       <Container>
         <div className="App">
           <Routes>
+            <Route path="/block" element={ <BlockRoute /> } />
             <Route path="/" element={ <FirstRoute /> }/ >
             <Route path="/peH1C9d6sVhLKmFSkjWd1" element={ <SecondRoute/> } />
             <Route path="/QC2XnHYOEixdZgfVNdf65" element={ <ThirdRoute /> } />
@@ -34,6 +38,8 @@ function App() {
             <Route path='/FwQshbQRbKQVL0FYIBjhv' element={ <EightRoute />} />
             <Route path='/Xdhe9C28H67TlpKTjpdsj' element={ <NineRoute />} />
             <Route path='/XPlBWg23Igj5kjSKxfYjV' element={ <TenRoute />} />
+            <Route path='/XHsw5dhTVuI09jFJOU63F' element={ <ElevenRoute />} />
+            <Route path='/aeX06_oWQpEyDrPF2V7xm' element={ <FirstStageClearRoute /> } />
           </Routes>
         </div>
       </Container>
